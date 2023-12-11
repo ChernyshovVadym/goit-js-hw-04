@@ -9,7 +9,7 @@
 // Тобто порахувати загальну кількість товарів в об’єкті products і повернути true, якщо вона менше або дорівнює containerSize, і false, якщо ні.
 
 function isEnoughCapacity(products, containerSize) {
-    totalProducts = 0,
+    totalProducts = 0;
     for (let product in products) {
         totalProducts += products[product];
     }
